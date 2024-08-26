@@ -6,6 +6,7 @@ Esse projeto foi feito para ensinar a adicionar e procurar elementos dentro de u
 - IndexOf para localizar a ocorrencia
 - LastIndexOf para localizar a ultima ocorrencia do valor digitado.
 - includes para verificar se existe ou não a ocorrencia.
+- Entre outras opções.
 
 ## 🚀 Tecnologias
 
