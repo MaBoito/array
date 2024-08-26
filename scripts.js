@@ -45,5 +45,32 @@ console.log(combinado);
 
 //dividindo Array
 
-const cortado = combinado.slice(1,3);
+const cortado = combinado.slice(1);
 console.log(cortado);
+
+//Clonando Array
+
+const clonado = [... cortado];
+console.log(clonado);
+
+//Iterando Array
+
+clonado.forEach((indice,numero)=> console.log(indice,numero));
+
+// //ou
+// for (numero of clonado)
+//     console.log(numero);
+
+console.log(combinado);
+
+//combinando Array metodo join
+
+const combinado2 = combinado.join(".");
+console.log(combinado2);
+
+// combinando frase
+
+const frase = "ola seja bem vindo ao curso";
+const resultado = frase.split(" ");
+console.log(resultado);
+console.log(resultado.join("-"));
