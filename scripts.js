@@ -35,3 +35,15 @@ console.log(numeros);
 // //ou
 // numeros.splice(0,numeros.length);
 // console.log(numeros);
+
+//Combinando Array
+
+const array1 = [1,2,3];
+const array2 = [4,5,6];
+const combinado = array1.concat(array2);
+console.log(combinado);
+
+//dividindo Array
+
+const cortado = combinado.slice(1,3);
+console.log(cortado);
